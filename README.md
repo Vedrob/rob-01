@@ -16,6 +16,13 @@ python app.py
 
 The application will be available at http://127.0.0.1:5000/
 
+### Development Mode
+
+To run the application with debug mode enabled:
+```bash
+FLASK_DEBUG=true python app.py
+```
+
 ## Endpoints
 
 - `/` - Home page with welcome message
